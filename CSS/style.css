@@ -1,6 +1,15 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
 body {
     background-color: #faf2e4;
-    margin: 0 15%;
     font-family: sans-serif;
 }
 .image-h1{
@@ -12,11 +21,17 @@ h1 {
     text-align: center;
     font-family: serif;
     font-weight: normal;
-    text-transform: appercase;
+    text-transform: uppercase;
     border-bottom: 1px solid #57b1dc;
     margin-top: 30px;
 }
 h2 {
     color: #d1633c;
-    font-size: 1em;
+}
+.menu-list p{
+    text-indent: 25px;
+}
+.blog-menu{
+    padding: 0 0;
+    margin: 0 0;
 }
